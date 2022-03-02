@@ -1,0 +1,222 @@
+body {
+
+}
+
+/* ================================================================ title Section ============================================== */
+
+#title-section {
+  font-family: 'League Spartan', sans-serif;
+  position: relative;
+}
+
+/* color selection */
+
+
+
+
+/* ========= NAvBAR =========== */
+
+.navbar {
+  padding: 3% 15%;
+  margin: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-right: 36.7%
+}
+
+.nav-link {
+  color: #091353;
+  font-size: 1.5rem;
+  margin-right: 50px;
+}
+
+/* BACKGROUD IMAGE HEADING  */
+.jampicbg {
+  width: 100%;
+}
+
+
+/* introduction text */
+.intro-text-cont {
+  position: absolute;
+  width: 25%;
+  top: 7.5%;
+  left: 55%;
+}
+
+.jamintro {
+  padding-bottom: 45px;
+  color: white;
+}
+
+em {
+  color: green;
+  font-size: 2rem;
+}
+
+.intro-text {
+  color: white;
+  font-size: 2.2rem;
+}
+
+.p-title {
+  font-size: 1.1rem;
+}
+
+
+.name-heading {
+  color: white;
+  font-weight: 600;
+  font-size: 6.5rem;
+  line-height: normal;
+  width: 30%;
+  position: absolute;
+  top: 55%;
+  left: 22%;
+  text-align: left;
+}
+
+/* ============================================FEatures SEction ===================================================== */
+#features {
+  padding: 5% 14% 7%;
+  background-color: #2C394B;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.feat-text-cont {
+  width: 80%;
+  margin: auto;
+  padding-top: 10%;
+
+}
+
+.feat-h2 {
+  color: #79B4B7;
+  font-size: 4rem;
+  font-weight: 900;
+  padding-top: 80%;
+
+}
+
+.expclient-text {
+  color: #D9D9DD;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.prob-ihave {
+  color: #D9D9DD;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 38px;
+}
+
+.i-enjoy {
+  color: white;
+  font-size: 2.2rem;
+  line-height: 45px;
+}
+
+
+
+/* ============================================Contact SEction ===================================================== */
+
+#contact {
+  padding: 5% 10%;
+}
+
+
+
+
+/* ================================= media querry =====================================================*/
+
+@media (max-width: 1475px) {
+  .name-heading {
+    font-size: 5.5rem;
+  }
+
+  .jamintro {
+    padding-bottom: 25px;
+    color: white;
+  }
+
+  .intro-text {
+    color: white;
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+/* ================================================== */
+@media (max-width: 1260px) {
+  .name-heading {
+    font-size: 4.5rem;
+  }
+
+  .jamintro {
+    padding-bottom: 15px;
+    color: white;
+  }
+
+  .intro-text {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 12px;
+  }
+}
+
+/* ================================================== */
+@media (max-width: 1060px) {
+  .name-heading {
+    font-size: 3.5rem;
+  }
+
+  .Jam {
+    padding-bottom: 5px;
+    color: white;
+  }
+
+  .intro-text {
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  p {
+    font-size: 8px;
+  }
+
+  #features {
+    text-align: center;
+  }
+
+  .feat-h2 {
+    padding-top: 10%;
+
+  }
+}
+
+/* ================================================== */
+@media (max-width: 734px) {
+  .name-heading {
+    font-size: 3rem;
+  }
+}
+/* ================================================== */
+@media (max-width: 637px) {
+  .name-heading {
+    font-size: 2rem;
+  }
+}
+/* ========================================== mediaqueery end================================================= */
